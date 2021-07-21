@@ -1,0 +1,62 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;           
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .card {
+    width: 40vw;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(231, 216, 216); */
+    flex-direction: column;
+}
+
+.container > .card > img {
+    width: 12vw;
+    height: 23vh;
+}
+
+.container > .card > .inputLogin {
+    width: 18.5vw;
+    height: 6vh;
+    border: 1.8px solid #aaa;
+    border-radius: 12px;
+    margin-top: 10px;    
+    color: #fff;
+    font-size: 17px;
+    
+}
+
+#btnLogin {
+    color: #fff;
+    background-color: #0275d8;
+    margin-top: 20px;
+    width: 100px;
+}
+
+#btnLogin:hover, #btnLogin:focus{
+    background-color: #1b67aa;
+}
+
+#linkBtn {
+    color: #fff;
+    text-decoration: none;
+}
+
+#redSenha {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 120px;
+    color: yellow;
+}
+
+#redSenha:hover {
+    color: rgb(255, 255, 255);
+}

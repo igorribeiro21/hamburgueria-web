@@ -1,0 +1,52 @@
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#dialogContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDialog {
+    width: 18.5vw;
+    height: 6vh;
+    border: 1.8px solid #aaa;
+    border-radius: 12px;
+    margin-top: 10px;    
+    /* color: #fff; */
+    font-size: 17px;
+}
+
+#divBtnDialog {
+    display: flex;
+    justify-content: center;
+}
+
+#btnDialog {
+    color: #fff;
+    background-color: #0275d8;
+    margin-top: 20px;
+    width: 130px;
+}
+
+#btnExcludeSim {
+    color: #fff;
+    background-color: #0275d8;
+    width: 120px;    
+}
+
+#btnDialog:hover, #btnDialog:focus, #btnExcludeSim:hover, #btnExcludeSim:focus{
+    background-color: #1b67aa;
+}
+
+#btnExcludeNao {
+    background-color: #ff2509;
+    color: #fff;
+    width: 120px;
+    margin-left: 10px;
+}
+
+#btnExcludeNao:hover, #btnExcludeNao:focus{
+    background-color: #ca1305;
+}
